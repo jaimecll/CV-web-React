@@ -88,8 +88,8 @@ scale:1.2;
     background: linear-gradient(143deg, rgba(17,82,74,1) 0%, rgba(42,190,172,1) 50%);
 }
 .cartelera{
-    background-image: url('./img/projects/movies/background.png');
-    background-repeat: no-repeat;
+    background: rgb(17,82,74);
+    background: linear-gradient(143deg, rgb(54, 0, 0) 0%, rgb(155, 0, 8) 100%);
     background-size: cover;
     
 }
