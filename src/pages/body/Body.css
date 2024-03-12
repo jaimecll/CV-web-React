@@ -1,0 +1,57 @@
+
+.body-container{
+    min-height:100vh;
+    min-width:100%;
+    background-color:#191819;
+    color:#F1EFF1;
+    /* padding:10px; */
+    box-sizing:border-box;
+    font-family:courier;
+}
+
+.show-left{
+    view-timeline-name:--image;
+     view-timeline-axis: block;
+     animation-timeline:--image;
+     animation-name: showleft;
+     animation-range:entry 0% cover 30%;
+     animation-fill-mode:both;
+}
+.show-right{
+    view-timeline-name:--image;
+     view-timeline-axis: block;
+     animation-timeline:--image;
+     animation-name: showright;
+     animation-range:entry 0% cover 30%;
+     animation-fill-mode:both;
+}
+.color-text{
+    color: #2abeac;
+}
+
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+@keyframes showleft {
+    from{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+@keyframes showright {
+    from{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}

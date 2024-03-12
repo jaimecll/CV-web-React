@@ -1,0 +1,27 @@
+.footer-section{
+    width:100%;
+    background:#11524A;
+    height:200px;
+    box-sizing: border-box;
+    padding: 30px 50px;
+
+}
+.footer-title{
+    font-size:24px;
+}
+.footer-text{
+    font-size:20px;
+}
+.div-50{
+    width:50%;
+    display: inline-block;
+    text-align: center;
+}
+.footer-links{
+    font-size:18px;
+    cursor:pointer;
+    margin:0px 30px;
+}
+.footer-links:hover{
+    text-decoration: underline;
+}

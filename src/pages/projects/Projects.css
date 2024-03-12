@@ -1,0 +1,193 @@
+.projects-section{
+    box-sizing: border-box;
+    padding:2rem 10rem;
+    width: 100%;
+
+}
+.projects-title{
+    border-top:1px solid white;
+    width: 100%;
+}
+.projects-wrapper{
+    height: 600px;
+}
+.projects-col{
+    float:left;
+    padding: 0px 20px;
+    box-sizing: border-box; 
+}
+.projects-selector{
+    width: 25%;
+    height:600px;
+
+}
+.projects-image{
+    width: 37.5%;
+    height:600px;
+    overflow: hidden;
+    position:relative;
+    border-radius: 10px;
+}
+.projects-image:hover img{
+scale:1.2;
+}
+.projects-image img{
+    position:absolute;
+    transition: scale 0.4s;
+
+}
+.projects-image .browser{
+   left:0px;
+    top:-20px;
+    z-index:1;
+    width:100%;
+}
+.projects-image .mobile{
+    z-index:3;
+    bottom:0px;
+    right:-60px;
+    width:70%;
+}
+.projects-image .tablet{
+    z-index:3;
+    bottom:0px;
+    left:40px;
+    width:70%;
+}
+.projects-image .full-tablet{
+    top:50%;
+    left:0px;
+    width:100%;
+    transform: translateY(-50%);
+}
+.projects-description{
+    width: 37.5%;
+    height:600px;
+    font-size:20px;
+}
+.project-button{
+    width: 100%;
+    height:80px;
+    background-color: transparent;
+    border: 1px solid rgb(145, 145, 145);
+    border-radius:3px;
+    margin-bottom:20px;
+    font-size:20px;
+    font-weight:400;
+    color:rgb(145, 145, 145);
+    cursor:pointer;
+    transition: color 0.4s, border 0.4s;
+}
+.selected-button,
+.project-button:hover{
+    color:white;
+    border: 1px solid white;
+}
+.calculadora{
+    background: rgb(17,82,74);
+    background: linear-gradient(143deg, rgba(17,82,74,1) 0%, rgba(42,190,172,1) 50%);
+}
+.cartelera{
+    background-image: url('./img/projects/movies/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.projects-top{
+    width:100%;
+    height:500px;
+}
+.projects-bottom{
+    width:100%;
+    height:100px;
+}
+.projects-bottom a{
+    display: inline-block;
+}
+.github-button{
+    height:70px;
+     width:200px;
+     max-width:200px;
+     border:1px solid rgba(42,190,172,1);
+     background: none;
+     outline: none;
+     border-radius: 5px;
+     justify-content: left;
+     align-items: left;
+     text-align: left;
+     text-wrap: balance;
+     padding:0px 20px;
+     cursor: pointer;
+     transition: border 0.2s;
+     box-sizing: border-box;
+}
+.github-button:hover{
+    border:1px solid rgb(0, 255, 225);
+}
+.github-button:hover label{
+    color:rgb(0, 255, 225);
+}
+
+.github-button img{
+    margin-top:-8px;
+    height:50px;
+    vertical-align: middle;
+}
+.button-image-center{
+    height:70px;
+    width:50px;
+    display: inline;
+}
+.github-button label{
+    line-height:70px;
+    font-size: 24px;
+    font-family: courier;
+    color:rgba(42,190,172,1);
+    text-align: center;
+    width:108px;
+    display:inline-block;
+    cursor: pointer;
+    transition: color 0.2s;
+
+}
+.container-stack img{
+    height:50px;
+    margin-top:15px;
+    margin-right:5px;
+}
+@media only screen and (max-width:1200px) {
+    .projects-section{
+       
+        padding:2rem;
+        
+    }
+    .projects-col{
+        float: none;
+    }
+    .projects-wrapper{
+        height: auto;
+    }
+    .projects-selector{
+        width: 100%;
+        height:auto;
+    
+    }
+    .projects-image{
+        width: 100%;
+        height:400px;
+        overflow: hidden;
+        position:relative;
+    }
+    .projects-description{
+        width: 100%;
+        height:auto;
+    
+    }
+    .projects-image .full-tablet{
+        top:50px;
+        left:0px;
+        width:100%;
+        transform: translateY(0%);
+    }
+    
+}
