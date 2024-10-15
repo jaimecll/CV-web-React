@@ -1,7 +1,7 @@
-function ExperienceCard({logo, company, work, text, date, mode,stack}){
+function ExperienceCard({animation, logo, company, work, text, date, mode,stack}){
     
     return(
-        <div className="experience-card show-left">
+        <div className={animation}>
             <div className="experience-info left">
                 <img src={logo} alt="Company Logo"></img>
                 <h3>{company}</h3>

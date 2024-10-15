@@ -244,8 +244,9 @@
 }
 .barcelona-text{
     position:absolute;
-    -webkit-text-stroke: 3px #ffffff;
-    color:transparent;
+    background-color: #21202290;
+    /* -webkit-text-stroke: 3px #ffffff; */
+    color:#ffffff;
     font-size:38px;
     font-family: helvetica;
     font-weight: 800;
