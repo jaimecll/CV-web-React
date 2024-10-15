@@ -31,7 +31,7 @@ function Experience(){
                 <ExperienceCard animation="experience-card show-left" logo="./img/experience/acceleralia.svg" company="Acceleralia" work="Desarrollador Fullstack" text={acceleralia_text} date="2020-2023" mode="Remoto" stack={stack}></ExperienceCard>
             </div>
             <div className="experience-container">
-                <ExperienceCard animation="experience-card show-right" logo="./img/experience/aubay.svg" company="Aubay" work="Desarrollador Fullstack" text={aubay_text} date="2024" mode="Presencial" stack={stack_aubay}></ExperienceCard>
+                <ExperienceCard animation="experience-card show-right" logo="./img/experience/aubay.svg" company="Aubay" work="Desarrollador Fullstack" text={aubay_text} date="2024-Actualidad" mode="Presencial" stack={stack_aubay}></ExperienceCard>
             </div>
         </div>
 
