@@ -1,5 +1,5 @@
 .experience-section{
-    padding:2rem 10rem;
+    padding:2rem;
     width: 100%;
     box-sizing: border-box;
     min-height:80vh;
@@ -45,7 +45,7 @@
 
 }
 .experience-text{
-    width:600px;
+    max-width:600px;
     padding:40px;
     box-sizing: border-box;
     

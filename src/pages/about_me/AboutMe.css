@@ -166,6 +166,7 @@
     animation:scroll2 40s linear infinite;
     animation-delay: calc(40s / -2);
 }
+
 .tech-stack-container{
     justify-content: center;
      align-items: center;

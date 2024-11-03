@@ -10,9 +10,9 @@ function Footer({ scrollClick }){
                     <p className='footer-text'>jaimecgfg@gmail.com</p>
                 </div>
                 <div className='div-50'>
-                    <label className='footer-links' onClick={()=>scrollClick(1)}>Sobre mi</label>
-                    <label className='footer-links' onClick={()=>scrollClick(2)}>Proyectos</label>
-                    <label className='footer-links' onClick={()=>scrollClick(3)}>Experiencia</label>
+                    <p className='footer-links' onClick={()=>scrollClick(1)}>Sobre mi</p>
+                    <p className='footer-links' onClick={()=>scrollClick(2)}>Proyectos</p>
+                    <p className='footer-links' onClick={()=>scrollClick(3)}>Experiencia</p>
                 </div>
             </div>
 

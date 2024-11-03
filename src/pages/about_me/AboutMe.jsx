@@ -11,6 +11,9 @@ function AboutMe(){
                             Un desarrollador con grandes ganas de superarse cada día. Encontré el desarrollo web de casualidad, me puse a estudiarlo y a día de hoy se ha convertido en mi pasión.
                         </p>
                         <p>
+                           A pesar de considerarme junior he tenido experiencias laborales complejas por lo que considero que tengo bastante conocimiento que aportar.
+                        </p>
+                        <p>
                             Lo que más me gusta de programar sería encontrar nuevas formas más óptimas de desarrollar el mismo código.
                         </p>
                     
@@ -82,7 +85,7 @@ function AboutMe(){
                             <img className="contact-icon" src='./img/icons/git_secondary.svg' alt='Github'></img>
                             <p>Github</p>
                         </a>
-                        <a className='contact-button' href='./CV/CV-Jaime_Ismael_Carcedo_Galindo.pdf' target="_blank"> 
+                        <a className='contact-button' href='./CV/Jaime_Ismael_Carcedo_Galindo_CV.pdf' target="_blank"> 
                             <img className="contact-icon pdf-icon" src='./img/icons/pdf.svg' alt='CV'></img>
                             <p>Porfolio</p>
                         </a>
